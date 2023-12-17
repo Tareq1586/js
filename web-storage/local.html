@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>
+      <button onclick="setUser('admin','Tareq')">Set local storage admin</button>
+    </p>
+
+    <p>
+      <button onclick="getUser('admin')">Get local storage admin</button>
+    </p>
+
+    <p>
+      <button onclick="setUser('user','Shahed')">Set a user</button>
+    </p>
+
+    <p>
+        <button onclick="getUser('user')">Get a user</button>
+    </p>
+
+    <p>
+      <button onclick="removeUser('user')">Remove a user</button>
+    </p>
+
+    <p>
+      <button onclick="clearStorage()">Clear Storage</button>
+    </p>
+    <script src="./js/local.js"></script>
+  </body>
+</html>
