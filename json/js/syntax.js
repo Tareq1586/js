@@ -9,12 +9,13 @@
 // const obj = JSON.parse(person);
 // console.log(obj);
 
-// undefined can not be used as a value of json proerty
+// undefined can not be used as a value
+// json does not allow date object
 // const person = '{"name":"Tareq","age":28,"skills":["programming","advisor"], "money": undefined}';
 // const obj = JSON.parse(person);
 // console.log(obj);
 
-// stringify would take date object if it is in proper format and make it as a value of property
+// stringify would take date object if it is in proper format and make it as a string value of the property
 // but it will ignore undefined
 // const person = {
 //     name: "Tareq",

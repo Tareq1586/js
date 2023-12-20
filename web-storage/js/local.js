@@ -1,3 +1,5 @@
+// web-storage api
+// this function will set an user in the local storage
 function setUser(name, value){
     localStorage.setItem(name, value);
 }
